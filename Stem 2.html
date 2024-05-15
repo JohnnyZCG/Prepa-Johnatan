@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tríptico Interactivo sobre Biodiversidad Urbana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #a5d6a7;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .panel {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .panel:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .panel h2 {
+            margin-top: 0;
+            color: #00796b;
+        }
+        .panel p {
+            color: #555;
+        }
+        .panel a {
+            color: #0288d1;
+            text-decoration: none;
+        }
+        .panel a:hover {
+            text-decoration: underline;
+        }
+        .panel img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panel" id="panel1">
+            <img src="https://www.nationalgeographic.com.es/medio/2021/06/17/urban-biodiversity_dc95e718.jpg" alt="Flora y Fauna Urbana">
+            <h2>Introducción a la Biodiversidad Urbana</h2>
+            <p>La biodiversidad urbana se refiere a la variedad de formas de vida, tanto plantas como animales, que se encuentran en las áreas urbanas. Este concepto abarca desde los parques y jardines hasta los espacios verdes en edificios y calles.</p>
+            <p>Las ciudades pueden ser hogar de especies nativas que han adaptado sus comportamientos a los entornos urbanos, así como de especies exóticas introducidas, algunas de las cuales pueden convertirse en invasoras y afectar negativamente a la biodiversidad local.</p>
+        </div>
+        <div class="panel" id="panel2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Pollution_in_a_Lake.jpg" alt="Amenazas para la Biodiversidad">
+            <h2>Amenazas y Desafíos para la Biodiversidad Urbana</h2>
+            <p>La contaminación del aire, provocada por las emisiones de vehículos e industrias, perjudica la salud de plantas, animales y humanos. La contaminación del agua, resultante de las descargas industriales y el escurrimiento de aguas pluviales, afecta a la fauna y flora acuática. Además, la contaminación del suelo por desechos sólidos y químicos altera la salud de las plantas y microorganismos del suelo.</p>
+            <p>La construcción de infraestructuras aísla a las poblaciones de animales, limitando su capacidad para encontrar alimento, reproducirse y migrar. Este aislamiento reduce la diversidad genética, haciendo a las poblaciones más vulnerables a enfermedades y cambios ambientales.</p>
+        </div>
+        <div class="panel" id="panel3">
+            <img src="https://cdn.pixabay.com/photo/2016/03/09/15/10/gardening-1245704_960_720.jpg" alt="Conservación Urbana">
+            <h2>Acciones para la Conservación de la Biodiversidad Urbana</h2>
+            <p>Crear y Mantener Espacios Verdes: Plantar árboles, arbustos y flores nativas en jardines, parques y espacios comunitarios ayuda a proporcionar hábitats para diversas especies. Los jardines comunitarios y los techos verdes también son excelentes maneras de aumentar la vegetación urbana.</p>
+            <p>Reducir el Uso de Pesticidas y Químicos: Optar por métodos de control de plagas naturales y reducir el uso de pesticidas y fertilizantes químicos protege a los insectos polinizadores y otros organismos beneficiosos, manteniendo los suelos y cuerpos de agua saludables.</p>
+                    </div>
+    </div>
+</body>
+</html>
+
